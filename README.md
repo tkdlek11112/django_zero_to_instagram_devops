@@ -1,11 +1,9 @@
-# django_zero_to_instagram
+# django_zero_to_instagram_devops
 
-장고를 이용한 인스타그램 클론 코딩입니다.
+장고를 이용한 인스타그램 클론 코딩 강의시리즈 중 Devops편 github repo입니다. 
 
-강의 유튜브를 기반으로 합니다.
-
-유튜브 : https://youtu.be/M8UPyeF5DfM  
-관련 blog : https://cholol.tistory.com/547
+유튜브 : 제작중
+관련 blog : https://cholol.tistory.com/580
 
 ---
 
