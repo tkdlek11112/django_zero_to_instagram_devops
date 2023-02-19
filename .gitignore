@@ -166,5 +166,6 @@ cython_debug/
 #.idea/
 
 # End of https://www.toptal.com/developers/gitignore/api/django
-!/media/default_profile.png
+
 /media/*
+!/media/default_profile.png
