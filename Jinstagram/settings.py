@@ -88,10 +88,10 @@ WSGI_APPLICATION = 'Jinstagram.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '43.201.26.170',
-        'NAME': 'djangoinsta',
-        'USER': 'root',
-        'PASSWORD': 'password',
+        'HOST': os.environ.get('MYSQL_HOST', '43.201.26.170'),
+        'NAME': os.environ.get('MYSQL_DB_NAME', 'djangoinsta'),
+        'USER': os.environ.get('MYSQL_USER', 'root'),
+        'PASSWORD': os.environ.get('MYSQL_PASSWORD', 'password'),
         'PORT': '3306',
         'OPTIONS': {'charset': 'utf8mb4'},
     }
